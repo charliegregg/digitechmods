@@ -6,3 +6,5 @@ minecraftWorlds/*
 *.pyc
 *.DS_Store
 **/structures/m/*.mcstructure
+Minecraft Education.app/*
+1.19.app/*
