@@ -1,0 +1,16 @@
+{
+    "texture_data": {
+        "solar": {
+            "textures": "textures/blocks/solar"
+        },
+        "battery": {
+            "textures": "textures/blocks/battery"
+        },
+        "charger": {
+            "textures": "textures/blocks/charger"
+        },
+        "recycle": {
+            "textures": "textures/blocks/recycle"
+        }
+    }
+}

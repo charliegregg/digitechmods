@@ -1,0 +1,25 @@
+tile.cg:solar.name=Solar Panel
+tile.cg:battery.name=Duracell™ Battery
+tile.cg:battery2.name=Duracell™ Battery
+tile.cg:recycle.name=Recycling Bin
+tile.cg:charger.name=Vehicle Charger
+
+
+item.spawn_egg.entity.cg:water.name=Create Water Wheel
+item.spawn_egg.entity.cg:car.name=Create Car
+item.spawn_egg.entity.cg:wind.name=Create Wind Turbine
+item.spawn_egg.entity.cg:tall_wind.name=Create Vertical Wind Turbine
+
+item.cg:fabric=Fabric
+item.cg:bottle=Plastic Bottle
+item.cg:fabric_hat=Fabric Hat
+item.cg:fabric_top=Fabric Top
+item.cg:fabric_pants=Fabric Pants
+item.cg:fabric_shoes=Fabric Shoes
+
+entity.cg:car.name=Car
+entity.cg:wind.name=Wind Turbine
+entity.cg:water.name=Water Wheel
+entity.cg:tall_wind.name=Vertical Wind Turbine
+
+action.hint.exit.cg:car=Have fun in the Electric Car!

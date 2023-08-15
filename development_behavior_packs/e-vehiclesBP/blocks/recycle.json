@@ -1,0 +1,16 @@
+{
+    "format_version": "1.19.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cg:recycle"
+        },
+        "components": {
+            "minecraft:geometry": "geometry.recycle",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "recycle"
+                }
+            }
+        }
+    }
+}

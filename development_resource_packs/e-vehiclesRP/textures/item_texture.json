@@ -1,0 +1,24 @@
+{
+    "texture_name": "atlas.items",
+    "resource_pack_name": "carpack",
+    "texture_data": {
+        "fabric": {
+            "textures": "textures/items/fabric"
+        },
+        "bottle": {
+            "textures": "textures/items/bottle"
+        },
+        "fabric_hat": {
+            "textures": "textures/items/fabric_hat"
+        },
+        "fabric_pants": {
+            "textures": "textures/items/fabric_pants"
+        },
+        "fabric_shoes": {
+            "textures": "textures/items/fabric_shoes"
+        },
+        "fabric_top": {
+            "textures": "textures/items/fabric_top"
+        }
+    }
+}

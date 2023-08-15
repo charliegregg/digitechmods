@@ -1,0 +1,25 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "cg:fabric_hat",
+            "materials": {
+                "default": "armor",
+                "enchanted": "armor_enchanted"
+            },
+            "textures": {
+                "default": "textures/models/armor/fabric_main",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.humanoid.armor.helmet"
+            },
+            "scripts": {
+                "parent_setup": "variable.hat_layer_visible = 0.0;"
+            },
+            "render_controllers": [
+                "controller.render.armor"
+            ]
+        }
+    }
+}

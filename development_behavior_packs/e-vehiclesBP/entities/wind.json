@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cg:wind",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "inanimate"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 2,
+        "height": 10
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "deals_damage": false
+        }
+      }
+    }
+  }
+}

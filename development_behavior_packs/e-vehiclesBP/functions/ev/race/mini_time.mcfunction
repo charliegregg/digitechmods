@@ -1,0 +1,2 @@
+function ev/race/calculate_time
+titleraw @a[r=3] actionbar { "rawtext": [{"text":"§eCP: §a"},{"score":{"name":"@s","objective":"checkp"}}, {"text": " §c"}, { "score": {"name": "seconds", "objective": "math" } }, {"text": "."}, { "score": {"name": "tenths", "objective": "math" } }, { "score": {"name": "hundredths", "objective": "math" } }, { "text": "s" }] }

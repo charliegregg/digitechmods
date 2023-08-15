@@ -1,0 +1,131 @@
+{
+    "format_version":"1.17",
+    "minecraft:npc_dialogue":{
+        "scenes":[
+            {
+                "scene_tag":"car",
+                "npc_name":"E-Vehicles",
+                "text":"Electric vehicles are a great way to reduce your carbon footprint. They are also a great way to save money on gas. This race track is a great place to test drive an electric vehicle.",
+                "on_open_commands":[
+                    
+                ],
+                "on_close_commands":[
+                    
+                ],
+                "buttons":[
+                    {
+                        "name":"Usage",
+                        "commands":[
+                            "/dialogue open @s @initiator car_how"
+                        ]
+                    },
+                    {  
+                        "name":"Benefits",
+                        "commands":[
+                            "/dialogue open @s @initiator car_pros"
+                        ] 
+                    },
+                    {
+                        "name":"Materials",
+                        "commands":[
+                            "/dialogue open @s @initiator car_materials"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag":"car_how",
+                "npc_name":"E-Vehicles",
+                "text":"To use an electric vehicle, you need to charge it. You can charge it at the charging stations here, just press the buttons on the side of the station.",
+                "on_open_commands":[
+                    
+                ],
+                "on_close_commands":[
+                    
+                ],
+                "buttons":[
+                    {
+                        "name":"Benefits",
+                        "commands":[
+                            "/dialogue open @s @initiator car_pros"
+                        ]
+                    },
+                    {  
+                        "name":"Materials",
+                        "commands":[
+                            "/dialogue open @s @initiator car_materials"
+                        ] 
+                    },
+                    {
+                        "name":"Thanks!",
+                        "commands":[
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag":"car_pros",
+                "npc_name":"E-Vehicles",
+                "text":"Electric vehicles are better for the environment because they do not emit greenhouse gases. They are also better for your wallet because they do not require gas. They are better again for your health because they do not emit harmful fumes.",
+                "on_open_commands":[
+                    
+                ],
+                "on_close_commands":[
+                    
+                ],
+                "buttons":[
+                    {
+                        "name":"Usage",
+                        "commands":[
+                            "/dialogue open @s @initiator car_how"
+                        ]
+                    },
+                    {  
+                        "name":"Materials",
+                        "commands":[
+                            "/dialogue open @s @initiator car_materials"
+                        ] 
+                    },
+                    {
+                        "name":"Thanks!",
+                        "commands":[
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag":"car_materials",
+                "npc_name":"E-Vehicles",
+                "text":"Electric vehicles are made of many of the same materials as regular vehicles. They are made of steel, aluminum, and plastic. They also have a battery that is made of lithium. Lithium is a metal that is mined from the ground. It is important to recycle the battery when it is no longer useful.",
+                "on_open_commands":[
+                    
+                ],
+                "on_close_commands":[
+                    
+                ],
+                "buttons":[
+                    {
+                        "name":"Usage",
+                        "commands":[
+                            "/dialogue open @s @initiator car_how"
+                        ]
+                    },
+                    {  
+                        "name":"Benefits",
+                        "commands":[
+                            "/dialogue open @s @initiator car_pros"
+                        ] 
+                    },
+                    {
+                        "name":"Thanks!",
+                        "commands":[
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

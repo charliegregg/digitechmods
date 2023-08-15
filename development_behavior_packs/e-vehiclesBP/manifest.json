@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "E-vehiclesBP",
+        "description": "Electric Vehicle showcase\n\n\nby CharlieGregg\n\n\nhttps://ambleoutdoors.com.au/blogs/journal/how-are-plastic-bottles-recycled-into-clothing",
+        "uuid": "652376e7-c5ef-467d-b75b-b104a5eafa49",
+        "version": [1,0,0],
+        "min_engine_version": [1,19,0]
+    },
+    "modules": [
+        {
+            "description": "_",
+            "type": "data",
+            "uuid": "bc56161e-2cc6-4a8e-a0f2-81ec1c94691b",
+            "version": [1,0,0]
+        }
+    ]
+}

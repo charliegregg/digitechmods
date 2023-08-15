@@ -1,0 +1,482 @@
+[
+    {
+        "colour": "00000000",
+        "block": "air",
+        "states": {
+        }
+    },
+    {
+        "colour": "d0d6d7",
+        "block": "concrete",
+        "states": {
+            "color":"white"
+        }
+    },
+    {
+        "colour": "7d7d73",
+        "block": "concrete",
+        "states": {
+            "color":"silver"
+        }
+    },
+    {
+        "colour": "373a3e",
+        "block": "concrete",
+        "states": {
+            "color":"gray"
+        }
+    },
+    {
+        "colour": "080a0f",
+        "block": "concrete",
+        "states": {
+            "color":"black"
+        }
+    },
+    {
+        "colour": "5f3b1f",
+        "block": "concrete",
+        "states": {
+            "color":"brown"
+        }
+    },
+    {
+        "colour": "8f2222",
+        "block": "concrete",
+        "states": {
+            "color":"red"
+        }
+    },
+    {
+        "colour": "e06100",
+        "block": "concrete",
+        "states": {
+            "color":"orange"
+        }
+    },
+    {
+        "colour": "f1b015",
+        "block": "concrete",
+        "states": {
+            "color":"yellow"
+        }
+    },
+    {
+        "colour": "5da818",
+        "block": "concrete",
+        "states": {
+            "color":"lime"
+        }
+    },
+    {
+        "colour": "495b24",
+        "block": "concrete",
+        "states": {
+            "color":"green"
+        }
+    },
+    {
+        "colour": "157788",
+        "block": "concrete",
+        "states": {
+            "color":"cyan"
+        }
+    },
+    {
+        "colour": "2388c6",
+        "block": "concrete",
+        "states": {
+            "color":"light_blue"
+        }
+    },
+    {
+        "colour": "2c2e8f",
+        "block": "concrete",
+        "states": {
+            "color":"blue"
+        }
+    },
+    {
+        "colour": "631f9b",
+        "block": "concrete",
+        "states": {
+            "color":"purple"
+        }
+    },
+    {
+        "colour": "a82f9e",
+        "block": "concrete",
+        "states": {
+            "color":"magenta"
+        }
+    },
+    {
+        "colour": "c285a2",
+        "block": "concrete",
+        "states": {
+            "color":"pink"
+        }
+    },
+    {
+        "colour": "593728",
+        "block": "hardened_clay",
+        "states": {
+        }
+    },
+    {
+        "colour": "7c695f",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"white"
+        }
+    },
+    {
+        "colour": "503f3a",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"silver"
+        }
+    },
+    {
+        "colour": "221915",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"gray"
+        }
+    },
+    {
+        "colour": "160d09",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"black"
+        }
+    },
+    {
+        "colour": "2f1f15",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"brown"
+        }
+    },
+    {
+        "colour": "54241c",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"red"
+        }
+    },
+    {
+        "colour": "5e3015",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"orange"
+        }
+    },
+    {
+        "colour": "6d4e15",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"yellow"
+        }
+    },
+    {
+        "colour": "3d451f",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"lime"
+        }
+    },
+    {
+        "colour": "2e321a",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"green"
+        }
+    },
+    {
+        "colour": "333636",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"cyan"
+        }
+    },
+    {
+        "colour": "423f51",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"light_blue"
+        }
+    },
+    {
+        "colour": "2c2336",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"blue"
+        }
+    },
+    {
+        "colour": "462933",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"purple"
+        }
+    },
+    {
+        "colour": "583340",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"magenta"
+        }
+    },
+    {
+        "colour": "602e2f",
+        "block": "stained_hardened_clay",
+        "states": {
+            "color":"pink"
+        }
+    },
+    {
+        "colour": "dee1e2",
+        "block": "wool",
+        "states": {
+            "color": "white"
+        }
+    },
+    {
+        "colour": "85857d",
+        "block": "wool",
+        "states": {
+            "color": "silver"
+        }
+    },
+    {
+        "colour": "3a3f42",
+        "block": "wool",
+        "states": {
+            "color": "gray"
+        }
+    },
+    {
+        "colour": "040609",
+        "block": "wool",
+        "states": {
+            "color": "black"
+        }
+    },
+    {
+        "colour": "653e22",
+        "block": "wool",
+        "states": {
+            "color": "brown"
+        }
+    },
+    {
+        "colour": "b3312a",
+        "block": "wool",
+        "states": {
+            "color": "red"
+        }
+    },
+    {
+        "colour": "ef7c19",
+        "block": "wool",
+        "states": {
+            "color": "orange"
+        }
+    },
+    {
+        "colour": "f9cd2f",
+        "block": "wool",
+        "states": {
+            "color": "yellow"
+        }
+    },
+    {
+        "colour": "6db619",
+        "block": "wool",
+        "states": {
+            "color": "lime"
+        }
+    },
+    {
+        "colour": "4d6220",
+        "block": "wool",
+        "states": {
+            "color": "green"
+        }
+    },
+    {
+        "colour": "15808b",
+        "block": "wool",
+        "states": {
+            "color": "cyan"
+        }
+    },
+    {
+        "colour": "2a97cc",
+        "block": "wool",
+        "states": {
+            "color": "light_blue"
+        }
+    },
+    {
+        "colour": "35389c",
+        "block": "wool",
+        "states": {
+            "color": "blue"
+        }
+    },
+    {
+        "colour": "af37a5",
+        "block": "wool",
+        "states": {
+            "color": "magenta"
+        }
+    },
+    {
+        "colour": "ec83a4",
+        "block": "wool",
+        "states": {
+            "color": "pink"
+        }
+    },
+    {
+        "colour": "6c229f",
+        "block": "wool",
+        "states": {
+            "color": "purple"
+        }
+    },
+    {
+        "colour": "2e342e",
+        "block": "deepslate_bricks",
+        "states": {
+        }
+    },
+    {
+        "colour": "7a7a7c",
+        "block": "iron_block",
+        "states": {
+        }
+    },
+    {
+        "colour": "161b11",
+        "block": "dried_kelp_block",
+        "states": {
+        }
+    },
+    {
+        "colour": "1a271b",
+        "block": "polished_blackstone_bricks",
+        "states": {
+        }
+    },
+    {
+        "colour": "7c7f5e",
+        "block": "end_bricks",
+        "states": {
+        }
+    },
+    {
+        "colour": "4a494b",
+        "block": "stonebrick",
+        "states": {
+        }
+    },
+    {
+        "colour": "2b342e",
+        "block": "cobbled_deepslate",
+        "states": {
+        }
+    },
+    {
+        "colour": "4a4a4b",
+        "block": "cobblestone",
+        "states": {
+        }
+    },
+    {
+        "colour": "414439",
+        "block": "mossy_cobblestone",
+        "states": {
+        }
+    },
+    {
+        "colour": "2b342e",
+        "block": "smooth_basalt",
+        "states": {
+        }
+    },
+    {
+        "colour": "4a4a4b",
+        "block": "quartz_block",
+        "states": {
+            "chisel_type":"smooth",
+            "pillar_axis":"y"
+        }
+    },
+    {
+        "colour": "414439",
+        "block": "smooth_stone",
+        "states": {
+        }
+    },
+    {
+        "colour": "08070a",
+        "block": "obsidian",
+        "states": {
+        }
+    },
+    {
+        "colour": "424b4e",
+        "block": "stone",
+        "states": {
+            "stone_type":"stone"
+        }
+    },
+    {
+        "colour": "585c63",
+        "block": "clay",
+        "states": {
+        }
+    },
+    {
+        "colour": "0e0f0c",
+        "block": "coal_block",
+        "states": {
+        }
+    },
+    {
+        "colour": "221915",
+        "block": "nether_brick",
+        "states": {
+        }
+    },
+    {
+        "colour": "9c9779",
+        "block": "sandstone",
+        "states": {
+            "sand_stone_type": "smooth"
+        }
+    },
+    {
+        "colour": "99531b",
+        "block": "red_sandstone",
+        "states": {
+            "sand_stone_type": "smooth"
+        }
+    },
+    {
+        "colour": "21a145",
+        "block": "emerald_block",
+        "states": {
+        }
+    },
+    {
+        "colour": "29483c",
+        "block": "prismarine",
+        "states": {
+            "prismarine_block_type": "dark"
+        }
+    }
+]

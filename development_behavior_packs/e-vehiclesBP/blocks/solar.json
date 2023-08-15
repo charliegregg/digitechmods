@@ -1,0 +1,17 @@
+{
+    "format_version": "1.19.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cg:solar"
+        },
+        "components": {
+            "minecraft:geometry": "geometry.solar",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "solar",
+                    "render_method": "alpha_test"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "E-VehiclesRP",
+        "description": "",
+        "uuid": "66c6e9a4-3903-462a-9c36-dbb052165282",
+        "version": [1, 0, 0],
+        "min_engine_version": [ 1, 19, 50 ]
+    },
+    "modules": [
+        {
+            "description": "_",
+            "type": "resources",
+            "uuid": "743f4966-53be-44b6-b326-398005021119",
+            "version": [1, 0, 0]
+        }
+    ]
+}

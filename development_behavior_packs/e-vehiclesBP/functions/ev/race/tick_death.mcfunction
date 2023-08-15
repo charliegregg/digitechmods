@@ -1,0 +1,1 @@
+execute @e[type=cg:car] ~ ~ ~ detect ~ ~ ~ lava -1 function ev/race/lose

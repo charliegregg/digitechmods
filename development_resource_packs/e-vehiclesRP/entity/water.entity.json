@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cg:water",
+            "materials": {
+                "default": "entity"
+            },
+            "textures": {
+                "default": "textures/entity/water"
+            },
+            "geometry": {
+                "default": "geometry.water"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "spawn_egg": {
+                "base_color": "#73cfd4",
+                "overlay_color": "#c5b5b5"
+            },
+            "animations": {
+                "turn": "animation.water.turn"
+            },
+            "scripts": {
+                "animate": [
+                    "turn"
+                ]
+            }
+        }
+    }
+}

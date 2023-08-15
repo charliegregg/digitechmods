@@ -1,0 +1,1 @@
+titleraw @a[r=3] title { "rawtext": [{"text": "§aTIME: §c"}, { "score": {"name": "seconds", "objective": "math" } }, {"text": "."}, { "score": {"name": "tenths", "objective": "math" } }, { "score": {"name": "hundredths", "objective": "math" } }, { "text": "s" }] }

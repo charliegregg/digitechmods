@@ -1,0 +1,16 @@
+{
+    "format_version": "1.19.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cg:battery2"
+        },
+        "components": {
+            "minecraft:geometry": "geometry.battery2",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "battery"
+                }
+            }
+        }
+    }
+}

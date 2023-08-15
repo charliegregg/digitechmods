@@ -1,0 +1,131 @@
+{
+    "format_version":"1.17",
+    "minecraft:npc_dialogue":{
+        "scenes":[
+            {
+                "scene_tag":"power",
+                "npc_name":"Renewable Energy",
+                "text":"Renewable energy is energy that comes from sources that are not depleted when used. This is different from fossil fuels, which are non-renewable. Fossil fuels are coal, oil, and natural gas. Renewable energy is solar, wind, and hydroelectric.",
+                "on_open_commands":[
+                    
+                ],
+                "on_close_commands":[
+                    
+                ],
+                "buttons":[
+                    {
+                        "name":"Solar",
+                        "commands":[
+                            "/dialogue open @s @initiator power_solar"
+                        ]
+                    },
+                    {  
+                        "name":"Wind",
+                        "commands":[
+                            "/dialogue open @s @initiator power_wind"
+                        ] 
+                    },
+                    {
+                        "name":"Hydroelectric",
+                        "commands":[
+                            "/dialogue open @s @initiator power_hydro"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag":"power_solar",
+                "npc_name":"Renewable Energy",
+                "text":"Solar energy is energy from the sun. Solar panels are used to collect solar energy. Solar panels are made of silicon, which is a metal. Solar panels are placed on roofs to collect energy from the sun. The energy is then used to power homes and businesses.",
+                "on_open_commands":[
+                    
+                ],
+                "on_close_commands":[
+                    
+                ],
+                "buttons":[
+                    {
+                        "name":"Wind",
+                        "commands":[
+                            "/dialogue open @s @initiator power_wind"
+                        ]
+                    },
+                    {  
+                        "name":"Hydroelectric",
+                        "commands":[
+                            "/dialogue open @s @initiator power_hydro"
+                        ] 
+                    },
+                    {
+                        "name":"Thanks!",
+                        "commands":[
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag":"power_wind",
+                "npc_name":"Renewable Energy",
+                "text":"Wind energy is energy from the wind. Wind turbines are used to collect wind energy. Wind turbines are made of steel, aluminum, and plastic. Wind turbines are placed in large fields to collect energy from the wind. The energy is then used to power everything from homes to race tracks.",
+                "on_open_commands":[
+                    
+                ],
+                "on_close_commands":[
+                    
+                ],
+                "buttons":[
+                    {
+                        "name":"Solar",
+                        "commands":[
+                            "/dialogue open @s @initiator power_solar"
+                        ]
+                    },
+                    {  
+                        "name":"Hydroelectric",
+                        "commands":[
+                            "/dialogue open @s @initiator power_hydro"
+                        ] 
+                    },
+                    {
+                        "name":"Thanks!",
+                        "commands":[
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag":"power_hydro",
+                "npc_name":"Renewable Energy",
+                "text":"Hydroelectric energy is energy from water. Dams are used to collect hydroelectric energy. Dams are made of concrete and steel. Dams are placed in rivers to collect energy from the water. The energy is then used to power everything we need.",
+                "on_open_commands":[
+                    
+                ],
+                "on_close_commands":[
+                    
+                ],
+                "buttons":[
+                    {
+                        "name":"Solar",
+                        "commands":[
+                            "/dialogue open @s @initiator power_solar"
+                        ]
+                    },
+                    {  
+                        "name":"Wind",
+                        "commands":[
+                            "/dialogue open @s @initiator power_wind"
+                        ] 
+                    },
+                    {
+                        "name":"Thanks!",
+                        "commands":[
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

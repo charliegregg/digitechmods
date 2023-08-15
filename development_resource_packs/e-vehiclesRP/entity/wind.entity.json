@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cg:wind",
+            "materials": {
+                "default": "entity"
+            },
+            "textures": {
+                "default": "textures/entity/wind"
+            },
+            "geometry": {
+                "default": "geometry.wind"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "spawn_egg": {
+                "base_color": "#bebab7",
+                "overlay_color": "#d70a0a"
+            },
+            "animations": {
+                "turn": "animation.wind.turn"
+            },
+            "scripts": {
+                "animate": [
+                    "turn"
+                ]
+            }
+        }
+    }
+}

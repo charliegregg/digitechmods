@@ -1,0 +1,16 @@
+{
+    "format_version": "1.19.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cg:charger"
+        },
+        "components": {
+            "minecraft:geometry": "geometry.charger",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "charger"
+                }
+            }
+        }
+    }
+}

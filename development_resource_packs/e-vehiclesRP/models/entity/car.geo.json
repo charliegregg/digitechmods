@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.car",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-10, 3, -24], "size": [20, 2, 48], "uv": [0, 0]},
+						{"origin": [-10, 5, -24], "size": [20, 5, 2], "uv": [0, 11]},
+						{"origin": [8, 5, -22], "size": [2, 5, 44], "uv": [0, 50]},
+						{"origin": [-10, 5, -22], "size": [2, 5, 44], "uv": [0, 50]},
+						{"origin": [-10, 5, 22], "size": [20, 5, 2], "uv": [0, 11]},
+						{"origin": [-9.5, 9, -23], "size": [19, 9, 2], "pivot": [0, 10, -23], "rotation": [-45, 0, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+scoreboard objectives add math dummy
+
+function ev/car/tick
+function ev/race/tick
+
+execute @e[type=item,name="Plastic Bottle"] ~ ~ ~ detect ~ ~-1 ~ cg:recycle -1 give @p cg:fabric 1
+execute @e[type=item,name="Plastic Bottle"] ~ ~ ~ detect ~ ~-1 ~ cg:recycle -1 kill @s
+
+effect @a night_vision 1000000 0 true
+effect @a saturation 1000000 0 true

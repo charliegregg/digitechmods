@@ -1,0 +1,17 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "cg:bottle",
+            "category": "Equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "bottle"
+            },
+            "minecraft:on_use_on": {
+                "event": "cg:bottle"
+            }
+        }
+    }
+}

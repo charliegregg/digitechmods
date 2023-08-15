@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cg:tall_wind",
+            "materials": {
+                "default": "entity"
+            },
+            "textures": {
+                "default": "textures/entity/tall_wind"
+            },
+            "geometry": {
+                "default": "geometry.tall_wind"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "spawn_egg": {
+                "base_color": "#87827f",
+                "overlay_color": "#d15656"
+            },
+            "animations": {
+                "turn": "animation.tall_wind.turn"
+            },
+            "scripts": {
+                "animate": [
+                    "turn"
+                ]
+            }
+        }
+    }
+}

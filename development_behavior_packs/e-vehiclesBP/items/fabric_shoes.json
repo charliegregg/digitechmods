@@ -1,0 +1,44 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "cg:fabric_shoes",
+            "category": "Equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "fabric_shoes"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantable": {
+                "value": 7,
+                "slot": "armor_feet"
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "repair_amount": "query.max_durability",
+                        "items": [
+                            "cg:fabric",
+                            "cg:fabric_shoes"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:render_offsets": "boots",
+            "minecraft:armor": {
+                "protection": 1
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.feet"
+            },
+            "minecraft:durability": {
+                "max_durability": 260
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.boots"
+            }
+        },
+        "events": {}
+    }
+}

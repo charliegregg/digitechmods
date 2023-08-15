@@ -1,0 +1,8 @@
+minecraftpe/*
+minecraftWorlds/*
+*.dat
+*/default_resource_pack/*
+*/default_behavior_pack/*
+*.pyc
+*.DS_Store
+**/structures/m/*.mcstructure

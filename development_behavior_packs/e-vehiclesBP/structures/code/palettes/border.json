@@ -1,0 +1,156 @@
+[
+    {
+        "start": -5.0,
+        "end": 10.0,
+        "block": "minecraft:blackstone",
+        "states": {},
+        "weight": 1
+    },
+    {
+        "start": 0.0,
+        "end": 15.0,
+        "block": "minecraft:polished_blackstone",
+        "states": {},
+        "weight": 1
+    },
+    {
+        "start": 5.0,
+        "end": 20.0,
+        "block": "minecraft:mud",
+        "states": {},
+        "weight": 1
+    },
+    {
+        "start": 10.0,
+        "end": 25.0,
+        "block": "minecraft:smooth_basalt",
+        "states": {},
+        "weight": 1
+    },
+    {
+        "start": 15.0,
+        "end": 30.0,
+        "block": "minecraft:basalt",
+        "states": {
+            "pillar_axis": "y"
+        },
+        "weight": 1
+    },
+    {
+        "start": 20.0,
+        "end": 35.0,
+        "block": "minecraft:polished_basalt",
+        "states": {
+            "pillar_axis": "y"
+        },
+        "weight": 1
+    },
+    {
+        "start": 25.0,
+        "end": 40.0,
+        "block": "minecraft:bedrock",
+        "states": {
+            "infiniburn_bit": 0
+        },
+        "weight": 1
+    },
+    {
+        "start": 30.0,
+        "end": 45.0,
+        "block": "minecraft:tuff",
+        "states": {},
+        "weight": 1
+    },
+    {
+        "start": 35.0,
+        "end": 50.0,
+        "block": "minecraft:cobblestone",
+        "states": {},
+        "weight": 1
+    },
+    {
+        "start": 40.0,
+        "end": 55.00000000000001,
+        "block": "minecraft:gravel",
+        "states": {},
+        "weight": 1
+    },
+    {
+        "start": 45.0,
+        "end": 60.0,
+        "block": "minecraft:stone",
+        "states": {
+            "stone_type": "stone"
+        },
+        "weight": 1
+    },
+    {
+        "start": 50.0,
+        "end": 65.0,
+        "block": "minecraft:stone",
+        "states": {
+            "stone_type": "andesite"
+        },
+        "weight": 1
+    },
+    {
+        "start": 55.00000000000001,
+        "end": 70.0,
+        "block": "minecraft:clay",
+        "states": {},
+        "weight": 1
+    },
+    {
+        "start": 60.0,
+        "end": 75.0,
+        "block": "minecraft:packed_mud",
+        "states": {},
+        "weight": 1
+    },
+    {
+        "start": 65.0,
+        "end": 80.0,
+        "block": "minecraft:dirt_with_roots",
+        "states": {},
+        "weight": 1
+    },
+    {
+        "start": 70.0,
+        "end": 85.0,
+        "block": "minecraft:dirt",
+        "states": {
+            "dirt_type": "normal"
+        },
+        "weight": 1
+    },
+    {
+        "start": 75.0,
+        "end": 90.0,
+        "block": "minecraft:dirt",
+        "states": {
+            "dirt_type": "coarse"
+        },
+        "weight": 1
+    },
+    {
+        "start": 80.0,
+        "end": 95.0,
+        "block": "minecraft:moss_block",
+        "states": {},
+        "weight": 1
+    },
+    {
+        "start": 85.0,
+        "end": 100.0,
+        "block": "minecraft:moss_block",
+        "states": {},
+        "weight": 1
+    },
+    {
+        "start": 90.0,
+        "end": 105.0,
+        "block": "minecraft:moss_block",
+        "states": {},
+        "weight": 1
+    }
+]

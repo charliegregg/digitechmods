@@ -1,0 +1,131 @@
+{
+    "format_version":"1.17",
+    "minecraft:npc_dialogue":{
+        "scenes":[
+            {
+                "scene_tag":"recycle",
+                "npc_name":"Recycling",
+                "text":"Recycling is an excellent way to make more of the resources you need. It's also a great way to get rid of the resources you don't need. Here we recycle plastic bottles into fabric.",
+                "on_open_commands":[
+                    
+                ],
+                "on_close_commands":[
+                    
+                ],
+                "buttons":[
+                    {
+                        "name":"How to recycle",
+                        "commands":[
+                            "/dialogue open @s @initiator recycle_how"
+                        ]
+                    },
+                    {  
+                        "name":"Recycling pros",
+                        "commands":[
+                            "/dialogue open @s @initiator recycle_pros"
+                        ] 
+                    },
+                    {
+                        "name":"What can recycle",
+                        "commands":[
+                            "/dialogue open @s @initiator recycle_what"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag":"recycle_how",
+                "npc_name":"Recycling",
+                "text":"To recycle, drop a single plastic bottle into the bin. The bin will then provide you with a piece of fabric. You can use this fabric at the crafting table to create clothing.",
+                "on_open_commands":[
+                    
+                ],
+                "on_close_commands":[
+                    
+                ],
+                "buttons":[
+                    {
+                        "name":"Recycling pros",
+                        "commands":[
+                            "/dialogue open @s @initiator recycle_pros"
+                        ]
+                    },
+                    {
+                        "name":"What can recycle",
+                        "commands":[
+                            "/dialogue open @s @initiator recycle_what"
+                        ]
+                    },
+                    {  
+                        "name":"Thanks!",
+                        "commands":[
+                            
+                        ] 
+                    }
+                ]
+            },
+            {
+                "scene_tag":"recycle_pros",
+                "npc_name":"Recycling",
+                "text":"Recycling helps keep the environment clean and healthy. It also helps reduce the amount of waste that ends up in landfills. Recycling is a great way to help the environment and save money.",
+                "on_open_commands":[
+                    
+                ],
+                "on_close_commands":[
+                    
+                ],
+                "buttons":[
+                    {
+                        "name":"How to recycle",
+                        "commands":[
+                            "/dialogue open @s @initiator recycle_how"
+                        ]
+                    },
+                    {  
+                        "name":"What can recycle",
+                        "commands":[
+                            "/dialogue open @s @initiator recycle_what"
+                        ] 
+                    },
+                    {
+                        "name":"Thanks!",
+                        "commands":[
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag":"recycle_what",
+                "npc_name":"Recycling",
+                "text":"You can recycle plastic bottles, glass bottles, and aluminum cans. You can also recycle paper, cardboard, and plastic bags. You can recycle almost anything that is made of plastic, glass, or metal. \nHowever, here we only accept plastic bottles.",
+                "on_open_commands":[
+                    
+                ],
+                "on_close_commands":[
+                    
+                ],
+                "buttons":[
+                    {
+                        "name":"How to recycle",
+                        "commands":[
+                            "/dialogue open @s @initiator recycle_how"
+                        ]
+                    },
+                    {  
+                        "name":"Recycling pros",
+                        "commands":[
+                            "/dialogue open @s @initiator recycle_pros"
+                        ] 
+                    },
+                    {
+                        "name":"Thanks!",
+                        "commands":[
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
