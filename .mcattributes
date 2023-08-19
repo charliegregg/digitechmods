@@ -2,3 +2,6 @@ diagnostic.disable.=true
 diagnostic.disable.resourcepack.model.missing=true
 diagnostic.disable.minecraft.commands.execute.deprecated=true
 diagnostic.disable.behaviorpack.block.missing=true
+diagnostic.disable.behaviorpack.block.states.missing=true
+diagnostic.disable.behaviorpack.block.states.invalid=true
+diagnostic.disable.minecraft.commands.fill.syntax=true

@@ -1,6 +1,6 @@
-import math, editor, solid, nbt, palette, pattern, random
+import math, editor, solid, nbt, palette, pattern, random, abc
 
-class Mountain(solid.Solid):
+class Radial(solid.Solid):
     def __init__(self, height, radius):
         self.radius = radius
         self.height = height
@@ -13,8 +13,32 @@ class Mountain(solid.Solid):
         random.seed(hash((math.floor(pos.x),math.floor(pos.z))))
         offset = random.random()*self.height/self.radius
         random.setstate(state)
-        return math.hypot(pos.x, pos.z)/self.radius*self.height + offset < self.height - pos.y
+
+        y = pos.y/self.height
+        d = math.hypot(pos.x, pos.z)/self.radius + offset/self.height
+        return self.at(d, y)
+    
+    @abc.abstractmethod
+    def at(self, d, y):
+        ...
+    
+class Mountain(Radial):
+    def at(self, d, y):
+        return y < 1 - d
+    
+    
+class Plateau(Radial):
+    def at(self, d, y):
+        return y < min(1,2 - 2*d)
+    
+class Rounded(Radial):
+    def at(self, d, y):
+        return y < 1-d*d
     
 if __name__ == "__main__":
     border = Mountain(100, 15)
     border.create(palette.BORDER, pattern.Height, "../m/border.mcstructure")
+    borderp = Plateau(100, 15)
+    borderp.create(palette.BORDER, pattern.Height, "../m/borderp.mcstructure")
+    borderr = Rounded(100, 15)
+    borderr.create(palette.BORDER, pattern.Height, "../m/borderr.mcstructure")

@@ -2,13 +2,14 @@
     "format_version": "1.16.100",
     "minecraft:item": {
         "description": {
-            "identifier": "cg:bottle",
+            "identifier": "cg:track_mover",
             "category": "Equipment"
         },
         "components": {
             "minecraft:icon": {
-                "texture": "bottle"
-            }
+                "texture": "track_mover"
+            },
+            "minecraft:max_stack_size": 1
         }
     }
 }

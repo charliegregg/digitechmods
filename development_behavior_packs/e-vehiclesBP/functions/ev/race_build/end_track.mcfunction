@@ -1,0 +1,1 @@
+kill @e[type=cg:track_trailer,c=1]

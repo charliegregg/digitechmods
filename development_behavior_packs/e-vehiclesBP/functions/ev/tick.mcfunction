@@ -2,6 +2,7 @@ scoreboard objectives add math dummy
 
 function ev/car/tick
 function ev/race/tick
+function ev/race_build/tick
 
 execute @e[type=item,name="Plastic Bottle"] ~ ~ ~ detect ~ ~-1 ~ cg:recycle -1 give @p cg:fabric 1
 execute @e[type=item,name="Plastic Bottle"] ~ ~ ~ detect ~ ~-1 ~ cg:recycle -1 kill @s

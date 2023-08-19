@@ -19,6 +19,12 @@
         },
         "fabric_top": {
             "textures": "textures/items/fabric_top"
+        },
+        "track_builder": {
+            "textures": "textures/items/track_builder"
+        },
+        "track_mover": {
+            "textures": "textures/items/track_mover"
         }
     }
 }

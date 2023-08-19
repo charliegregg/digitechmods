@@ -4,11 +4,18 @@ tile.cg:battery2.name=Duracell™ Battery
 tile.cg:recycle.name=Recycling Bin
 tile.cg:charger.name=Vehicle Charger
 
-
 item.spawn_egg.entity.cg:water.name=Create Water Wheel
 item.spawn_egg.entity.cg:car.name=Create Car
 item.spawn_egg.entity.cg:wind.name=Create Wind Turbine
 item.spawn_egg.entity.cg:tall_wind.name=Create Vertical Wind Turbine
+
+item.spawn_egg.entity.cg:checkpoint.name=Checkpoint
+item.spawn_egg.entity.cg:race_start_marker.name=Race Start
+item.spawn_egg.entity.cg:race_light_marker.name=Race Light
+item.spawn_egg.entity.cg:mountain_marker.name=Mountain
+item.spawn_egg.entity.cg:race_start_barrier_marker.name=Race Barrier
+item.spawn_egg.entity.cg:track_trailer.name=Race Builder
+
 
 item.cg:fabric=Fabric
 item.cg:bottle=Plastic Bottle
@@ -16,6 +23,8 @@ item.cg:fabric_hat=Fabric Hat
 item.cg:fabric_top=Fabric Top
 item.cg:fabric_pants=Fabric Pants
 item.cg:fabric_shoes=Fabric Shoes
+item.cg:track_builder=Track Builder
+item.cg:track_mover=Track Mover
 
 entity.cg:car.name=Car
 entity.cg:wind.name=Wind Turbine
