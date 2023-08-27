@@ -25,6 +25,9 @@
         },
         "track_mover": {
             "textures": "textures/items/track_mover"
+        },
+        "track_deletor": {
+            "textures": "textures/items/track_deletor"
         }
     }
 }

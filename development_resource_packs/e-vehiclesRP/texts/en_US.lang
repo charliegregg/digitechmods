@@ -25,6 +25,7 @@ item.cg:fabric_pants=Fabric Pants
 item.cg:fabric_shoes=Fabric Shoes
 item.cg:track_builder=Track Builder
 item.cg:track_mover=Track Mover
+item.cg:track_deletor=DELETOR
 
 entity.cg:car.name=Car
 entity.cg:wind.name=Wind Turbine
