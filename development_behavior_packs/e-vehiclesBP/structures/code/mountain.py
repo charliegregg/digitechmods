@@ -35,6 +35,12 @@ class Rounded(Radial):
     def at(self, d, y):
         return y < 1-d*d
     
+    
+class Bowl(Radial):
+    def at(self, d, y):
+        d *= 1.316
+        return y < 3/2*d*d - math.pow(d, 6)/2
+    
 if __name__ == "__main__":
     border = Mountain(100, 15)
     border.create(palette.BORDER, pattern.Height, "../m/border.mcstructure")
@@ -42,3 +48,5 @@ if __name__ == "__main__":
     borderp.create(palette.BORDER, pattern.Height, "../m/borderp.mcstructure")
     borderr = Rounded(100, 15)
     borderr.create(palette.BORDER, pattern.Height, "../m/borderr.mcstructure")
+    bowl = Bowl(15, 70)
+    bowl.create(palette.BORDER, pattern.Height, "../m/bowl.mcstructure")

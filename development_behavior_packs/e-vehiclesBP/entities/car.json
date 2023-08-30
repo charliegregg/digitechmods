@@ -41,7 +41,7 @@
         "seat_count": 2,
         "family_types": [
           "player",
-          "monster"
+          "villager"
         ],
         "interact_text": "action.interact.mount",
         "pull_in_entities": true,
@@ -50,14 +50,14 @@
             "position": [
               0.0,
               0.3,
-              0.4
+              0.6
             ]
           },
           {
             "position": [
               0.0,
               0.3,
-              -0.4
+              -0.2
             ],
             "min_rider_count": 2,
             "max_rider_count": 2
