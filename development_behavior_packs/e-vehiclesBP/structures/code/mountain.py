@@ -48,5 +48,5 @@ if __name__ == "__main__":
     borderp.create(palette.BORDER, pattern.Height, "../m/borderp.mcstructure")
     borderr = Rounded(100, 15)
     borderr.create(palette.BORDER, pattern.Height, "../m/borderr.mcstructure")
-    bowl = Bowl(15, 70)
+    bowl = Bowl(15, 35)
     bowl.create(palette.BORDER, pattern.Height, "../m/bowl.mcstructure")
