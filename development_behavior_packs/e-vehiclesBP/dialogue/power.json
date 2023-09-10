@@ -59,7 +59,7 @@
                     {
                         "name":"Thanks!",
                         "commands":[
-                            
+                            "/dialogue open @s @initiator power_end"
                         ]
                     }
                 ]
@@ -90,7 +90,7 @@
                     {
                         "name":"Thanks!",
                         "commands":[
-                            
+                            "/dialogue open @s @initiator power_end"
                         ]
                     }
                 ]
@@ -121,9 +121,20 @@
                     {
                         "name":"Thanks!",
                         "commands":[
-                            
+                            "/dialogue open @s @initiator power_end"
                         ]
                     }
+                ]
+            },
+            {
+                "scene_tag":"power_end",
+                "npc_name":"E-Vehicles",
+                "text":"Thanks for talking to me about renewable power, I recommend checking out geothermal power! I hope you learnt something new!\nRead more at https://www.un.org/en/climatechange/what-is-renewable-energy",
+                "on_open_commands":[
+                    
+                ],
+                "on_close_commands":[
+                    
                 ]
             }
         ]

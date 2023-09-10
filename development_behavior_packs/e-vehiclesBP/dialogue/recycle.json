@@ -59,7 +59,7 @@
                     {  
                         "name":"Thanks!",
                         "commands":[
-                            
+                            "/dialogue open @s @initiator recycle_end"
                         ] 
                     }
                 ]
@@ -90,7 +90,7 @@
                     {
                         "name":"Thanks!",
                         "commands":[
-                            
+                            "/dialogue open @s @initiator recycle_end"
                         ]
                     }
                 ]
@@ -121,9 +121,20 @@
                     {
                         "name":"Thanks!",
                         "commands":[
-                            
+                            "/dialogue open @s @initiator recycle_end"
                         ]
                     }
+                ]
+            },
+            {
+                "scene_tag":"recycle_end",
+                "npc_name":"E-Vehicles",
+                "text":"Thanks for talking to me about recycling, I recommend trying it out yourself! I hope you learnt something new!\nRead more at https://ambleoutdoors.com.au/blogs/journal/how-are-plastic-bottles-recycled-into-clothing",
+                "on_open_commands":[
+                    
+                ],
+                "on_close_commands":[
+                    
                 ]
             }
         ]

@@ -135,14 +135,6 @@
                 ],
                 "on_close_commands":[
                     
-                ],
-                "buttons":[
-                    {
-                        "name":"Read More",
-                        "commands": [
-                            "/openurl https://www.greenvehicleguide.gov.au/pages/LowAndZeroEmissionVehicles/ElectricVehicleInformation"
-                        ]
-                    }
                 ]
             }
         ]
