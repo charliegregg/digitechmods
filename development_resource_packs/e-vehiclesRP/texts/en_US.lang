@@ -32,4 +32,11 @@ entity.cg:wind.name=Wind Turbine
 entity.cg:water.name=Water Wheel
 entity.cg:tall_wind.name=Vertical Wind Turbine
 
-action.hint.exit.cg:car=Have fun in the Electric Car!
+action.hint.exit.cg:car=Electric Car
+
+track.1=§dWobbly Way
+track.2=§dTrecherous Turns
+track.3=§dCalibration Course
+track.4=§dStrict Strips
+track.5=§dHopping Hoops
+track.6=§dLava Loop

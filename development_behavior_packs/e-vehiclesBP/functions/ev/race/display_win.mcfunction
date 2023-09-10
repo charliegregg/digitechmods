@@ -1,1 +1,0 @@
-execute @s ^ ^0.3 ^0.6 tellraw @p[r=3] { "rawtext": [{"text": "§a"}, {"selector": "@a[tag=winner]"}, {"text": " finished with a time of: §c"}, { "score": {"name": "seconds", "objective": "math" } }, {"text": "."}, { "score": {"name": "tenths", "objective": "math" } }, { "score": {"name": "hundredths", "objective": "math" } }, { "text": "s" }] }
