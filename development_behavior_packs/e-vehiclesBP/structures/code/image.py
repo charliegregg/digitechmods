@@ -74,6 +74,6 @@ def im2str(imgfile, destfile, size=None, vertical=False):
             else:
                 image_structure.set_block(block, editor.vec3(x, 0, y))
     nbt.encode_file(destfile, image_structure.to_nbt())
-im2str("track.png", "track.mcstructure", vertical=False, size=(128,128))
+im2str("test.png", "test.mcstructure", vertical=True, size=(128,128))
 # print(nbt.decode_file("nbttest.mcstructure")) # will show nbt data for test structure
 

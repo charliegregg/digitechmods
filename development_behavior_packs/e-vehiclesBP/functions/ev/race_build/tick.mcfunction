@@ -5,4 +5,4 @@ execute @e[type=cg:track_trailer] ~ ~ ~ particle minecraft:basic_flame_particle 
 execute @a[tag=track_builder] ~ ~ ~ execute @e[type=cg:track_trailer,rm=10,r=30,c=1] ~ ~ ~ tp ~ ~ ~ facing @p[tag=track_builder]
 execute @a[tag=track_builder] ~ ~ ~ execute @e[type=cg:track_trailer,rm=10,r=30,c=1] ~ ~ ~ tp ^ ^ ^0.5 facing @p[tag=track_builder]
 execute @a[tag=track_builder] ~ ~ ~ execute @e[type=cg:track_trailer,c=1] ~ ~-1 ~ function ev/race_build/section
-execute @a[hasitem={item=cg:track_deletor,location=slot.weapon.mainhand}] ~ ~ ~ fill ~-6 ~ ~-6 ~6 ~10 ~6 air
+execute @a[hasitem={item=cg:track_deletor,location=slot.weapon.mainhand}] ^ ^ ^20 fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air

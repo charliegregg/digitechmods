@@ -49,4 +49,6 @@ class Palette:
             return Palette(data)
         return Palette(json.load(open(file)))
     
-BORDER = Palette.load("../palettes/border.mcstructure")
+RAINBOW = Palette.load("../palettes/rainbow.mcstructure")
+
+BORDER = Palette.load("../palettes/border.mcstructure", 0.01)

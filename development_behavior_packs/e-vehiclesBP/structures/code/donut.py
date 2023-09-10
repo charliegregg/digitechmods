@@ -25,4 +25,4 @@ class Donut(solid.Solid):
     
 if __name__ == "__main__":
     donut = Donut(20, 5)
-    donut.create(palette.BORDER, pattern.Height, "../m/donut.mcstructure")
+    donut.create(palette.RAINBOW, pattern.Height, "../m/donutrainbow.mcstructure")
