@@ -1,1 +1,1 @@
-titleraw @a[r=3] title { "rawtext": [{"text": "§aTIME: §c"}, { "score": {"name": "seconds", "objective": "math" } }, {"text": "."}, { "score": {"name": "tenths", "objective": "math" } }, { "score": {"name": "hundredths", "objective": "math" } }, { "text": "s" }] }
+execute @s ^ ^0.3 ^0.6 titleraw @p[r=3] title { "rawtext": [{"text": "§aTIME: §c"}, { "score": {"name": "seconds", "objective": "math" } }, {"text": "."}, { "score": {"name": "tenths", "objective": "math" } }, { "score": {"name": "hundredths", "objective": "math" } }, { "text": "s" }] }

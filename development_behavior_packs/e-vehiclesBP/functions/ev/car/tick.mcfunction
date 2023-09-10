@@ -12,7 +12,7 @@ tag @e[tag=stop_move] remove move
 tag @e[tag=stop_move] remove stop_move
 scoreboard players set @e[tag=move,scores={charge_time=20..}] charge_time 0
 
-execute @e[type=cg:car,scores={charge=150..}] ~ ~ ~ titleraw @a[r=3,tag=!racing] actionbar {"rawtext":[{"text":"§a§lCHARGE: §2"}, {"score":{"name":"@s","objective":"charge"}},{"text":"§a/200"}]}
-execute @e[type=cg:car,scores={charge=100..149}] ~ ~ ~ titleraw @a[r=3,tag=!racing] actionbar {"rawtext":[{"text":"§e§lCHARGE: §a"}, {"score":{"name":"@s","objective":"charge"}},{"text":"§e/200"}]}
-execute @e[type=cg:car,scores={charge=50..99}] ~ ~ ~ titleraw @a[r=3,tag=!racing] actionbar {"rawtext":[{"text":"§6§lCHARGE: §e"}, {"score":{"name":"@s","objective":"charge"}},{"text":"§6/200"}]}
-execute @e[type=cg:car,scores={charge=0..49}] ~ ~ ~ titleraw @a[r=3,tag=!racing] actionbar {"rawtext":[{"text":"§c§lCHARGE: §6"}, {"score":{"name":"@s","objective":"charge"}},{"text":"§c/200"}]}
+execute @e[type=cg:car,scores={charge=150..}] ^ ^0.3 ^0.6 titleraw @p[r=3,tag=!racing] actionbar {"rawtext":[{"text":"§a§lCHARGE: §2"}, {"score":{"name":"@s","objective":"charge"}},{"text":"§a/200"}]}
+execute @e[type=cg:car,scores={charge=100..149}] ^ ^0.3 ^0.6 titleraw @p[r=3,tag=!racing] actionbar {"rawtext":[{"text":"§e§lCHARGE: §a"}, {"score":{"name":"@s","objective":"charge"}},{"text":"§e/200"}]}
+execute @e[type=cg:car,scores={charge=50..99}] ^ ^0.3 ^0.6 titleraw @p[r=3,tag=!racing] actionbar {"rawtext":[{"text":"§6§lCHARGE: §e"}, {"score":{"name":"@s","objective":"charge"}},{"text":"§6/200"}]}
+execute @e[type=cg:car,scores={charge=0..49}] ^ ^0.3 ^0.6 titleraw @p[r=3,tag=!racing] actionbar {"rawtext":[{"text":"§c§lCHARGE: §6"}, {"score":{"name":"@s","objective":"charge"}},{"text":"§c/200"}]}
