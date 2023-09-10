@@ -2,8 +2,8 @@ scoreboard players set @s racescore 0
 
 execute @s[scores={raceid=1,race_time=..640}] ~ ~ ~ scoreboard players add @s racescore 1
 execute @s[scores={raceid=1,race_time=..600}] ~ ~ ~ scoreboard players add @s racescore 1
+execute @s[scores={raceid=1,race_time=..570}] ~ ~ ~ scoreboard players add @s racescore 1
 execute @s[scores={raceid=1,race_time=..560}] ~ ~ ~ scoreboard players add @s racescore 1
-execute @s[scores={raceid=1,race_time=..550}] ~ ~ ~ scoreboard players add @s racescore 1
 
 execute @s[scores={raceid=2,race_time=..1100}] ~ ~ ~ scoreboard players add @s racescore 1
 execute @s[scores={raceid=2,race_time=..1000}] ~ ~ ~ scoreboard players add @s racescore 1
