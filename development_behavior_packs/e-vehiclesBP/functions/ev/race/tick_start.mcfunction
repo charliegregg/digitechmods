@@ -17,5 +17,6 @@ execute @e[tag=starting_race,scores={race_start=61}] ~ ~ ~ tag @e[type=cg:car,r=
 execute @e[tag=starting_race,scores={race_start=61}] ~ ~ ~ scoreboard players set @e[type=cg:car,r=20] race_time 0
 execute @e[tag=starting_race,scores={race_start=61}] ~ ~ ~ scoreboard players set @e[type=cg:car,r=20] checkp 0
 execute @e[tag=starting_race,scores={race_start=61}] ~ ~ ~ scoreboard players operation @e[type=cg:car,r=20] raceid = @s raceid
+execute @e[tag=starting_race,scores={race_start=61}] ~ ~ ~ function ev/race/display_start
 execute @e[tag=starting_race,scores={race_start=81}] ~ ~ ~ execute @e[type=cg:race_light_marker,r=20] ~ ~ ~ setblock ~ ~ ~ minecraft:coal_block
 execute @e[tag=starting_race,scores={race_start=81}] ~ ~ ~ tag @s remove starting_race

@@ -2,6 +2,7 @@ scoreboard objectives add race_start dummy
 scoreboard objectives add race_time dummy
 scoreboard objectives add checkp dummy
 scoreboard objectives add raceid dummy
+scoreboard objectives add racescore dummy
 
 function ev/race/tick_start
 function ev/race/tick_death
