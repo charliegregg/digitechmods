@@ -12,3 +12,4 @@ effect @a saturation 1000000 0 true
 effect @a resistance 1000000 0 true
 effect @a fire_resistance 1000000 0 true
 effect @a water_breathing 1000000 0 true
+ability @a mayfly true
