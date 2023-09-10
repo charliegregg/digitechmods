@@ -9,3 +9,6 @@ execute @e[type=item,name="Plastic Bottle"] ~ ~ ~ detect ~ ~-1 ~ cg:recycle -1 k
 
 effect @a night_vision 1000000 0 true
 effect @a saturation 1000000 0 true
+effect @a resistance 1000000 0 true
+effect @a fire_resistance 1000000 0 true
+effect @a water_breathing 1000000 0 true
